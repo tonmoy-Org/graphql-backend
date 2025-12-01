@@ -62,7 +62,8 @@ Create `.env` file and add:
 
     MONGO_URI=your_mongo_connection
     JWT_SECRET=your_secret
-    PORT=5000
+    JWT_EXPIRES_IN=7d
+    PORT=4000
 
 ------------------------------------------------------------------------
 
@@ -76,7 +77,7 @@ npm run dev
 
 GraphQL server will run at:
 
-    http://localhost:5000/graphql
+    http://localhost:4000/graphql
 
 ------------------------------------------------------------------------
 
